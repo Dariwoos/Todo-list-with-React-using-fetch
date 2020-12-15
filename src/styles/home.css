@@ -1,8 +1,14 @@
+body{
+    background-color: lightgray;
+}
 .taskBody {
     margin: auto;
     width: 200px;;
-    background-color: rgb(216, 208, 208);   
+    background-color: honeydew;   
 }
 .center{
     background-color : black;
+}
+.input{
+    width: 200px;
 }

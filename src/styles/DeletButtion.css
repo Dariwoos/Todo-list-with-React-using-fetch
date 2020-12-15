@@ -2,4 +2,13 @@
     background-color: black;
     color: white;
     margin-left: 10px;
+    float: right;
+    
+}
+.paragrafo{
+    width: 300px;
+    height: 38px;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top:10px;
 }

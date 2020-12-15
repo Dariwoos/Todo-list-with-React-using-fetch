@@ -5,7 +5,7 @@ import "../../styles/DeletButtion.css";
 function DeletButton(props) {
 	return (
 		<div className="delet">
-			<p>
+			<p className="paragrafo">
 				{props.todo}
 				<button
 					type="button"
@@ -19,7 +19,7 @@ function DeletButton(props) {
 }
 DeletButton.propTypes = {
 	todo: PropTypes.string,
-	id: PropTypes.numer,
+	id: PropTypes.integer,
 	deleteLine: PropTypes.func
 };
 export default DeletButton;
