@@ -10,8 +10,9 @@ export function Home() {
 	}, []);
 
 	const handelDown = e => {
+        e.preventDefault();
 		if (e.keyCode == 13 && e.target.value != "") {
-			e.preventDefault();
+			
 			let emptyList = [...task, { label: e.target.value, done: false }];
 			e.target.value = "";
 			putTask(emptyList);
